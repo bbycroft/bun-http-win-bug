@@ -3,6 +3,8 @@
 Note: this issue was noticed with a vite proxy when running "bun run --bun vite dev", and a number
 of requests hanging, along with browser HTTP/1.1 request thread starvation.
 
+This repo is for the issue https://github.com/oven-sh/bun/issues/27010
+
 ## Versions
 
 This appears to only be a Windows issue. All version work on Ubuntu 24.04 in WSL (and much faster too).
